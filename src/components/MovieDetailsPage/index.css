@@ -1,0 +1,48 @@
+.movie-details-container{
+    width: 100%;
+    margin: 10px;
+    color: white;
+}
+.movie-details{
+    display: flex;
+    width: 100%;
+    border: 5px;
+    color: white;
+    margin: 10px 10px;
+}
+.movie-des{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+
+}
+.img{
+    height: 150px;
+    width: 120px;
+}
+.over-view{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+.cast{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    list-style: none;
+    gap: 10px;
+}
+.card-item{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: gray;
+    color: white;
+    text-align: center;
+}
+.over-view>h1{
+    color: white;
+}
